@@ -1,22 +1,15 @@
-## Dosing-RL by Strong Analytics
+## Dosing-RL Gym
 
-This repository contains a diabetic patient data simulator following the structure of an `open-ai gym` and is originally intended to evaluate reinforcement learning algorithms.
+This repository contains a diabetic patient data simulator following the structure of an `open-ai gym`. It is intended to evaluate reinforcement learning algorithms.
+
+For more information on how this gym can be used in applied reinforcement learning research, see [our blog post on personalized dosing](https://www.strong.io/blog/reinforcement-learning-for-personalized-medication-dosing).
 
 ## Installation
 
-Install this package via
-```
-pip install -e .
-```
-or
+Install this package via `pip`:
 ```
 python setup.py install
 ```
-
-## Dependencies
-
-Can be found in `setup.py`.
-
 
 ## Diabetic-v0 and Diabetic-v1
 
